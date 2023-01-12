@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.home{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    padding: 0 8%;
+    background-color: #eeeeee;
+}
+.home-img img{
+    display: block;
+    margin-top: -104px;
+    width: 770px;
+    max-width: 100%;
+    height: auto;
+}
+.home-text{
+    margin-top: 20%;
+    margin-left: 5%;
+}
+.home-text h5{
+    font-size: 25px;
+    font-weight: 100;
+    color: #000;
+    margin-bottom: 40px;
+}
+.home-text h1{
+    font-size: 150px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+.home-text p{
+    font-weight: 300;
+    max-width: 390px;
+    font-size: 20px;
+    line-height: 19px;
+    margin-bottom: 50px;
+}
+.home-btn{
+    display: flex;
+}
+.home-btn a{
+    display: inline-block;
+    color: #f8f8f8;
+    background-color: #000;
+    padding: 12px;
+    font-size: 30px;
+    font-weight: 200;
+    padding-left: 40px;
+    line-height: 55px;
+    padding-right: 40px;
+}
+.home-btn div{
+    width: 143px;
+    height: 82px;
+    background-color: #ffffffff;
+    color: #000;
+    font-size: 30px;
+    line-height: 82px;
+    text-align: center;
+}
+.models{
+    width: 100%;
+    height: 220vh;
+    background-color: #f8f8f8;
+}
+.popular-title{
+    text-align: center;
+    text-transform: lowercase;
+    padding-top: 40px;
+}
+.models-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.watch-img img{
+    width: 300px;
+    background-color: #eeeeee;
+}
+.watch-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+.watch-name{
+    display: block;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.watch-description{
+    position: absolute;
+    width: 531px;
+    height: 238px;
+    left: 540px;
+    top: 1360px;
+    max-width: 300px;
+    line-height: 20px;
+}
+.watch2-description{
+    position: absolute;
+    width: 531px;
+    height: 238px;
+    left: 540px;
+    top: 2050px;
+    max-width: 300px;
+    line-height: 20px;
+}
+.watch2-img img{
+    width: 300px;
+    background-color: #eeeeee;
+}
+.watch2-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    margin-bottom: 40px;
+}
+.product-section{
+    width: 100%;
+    height: 40vh;
+}
+.product-section h3{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.product-section h3::before{
+    content: '';
+    width: 130px;
+    background-color: #272727;
+    position: absolute;
+    height: 2px;
+    margin-top: 50px;
+    left: 45%;
+}
+.product-section p{
+    position: absolute;
+    width: 531px;
+    height: 238px;
+    left: 500px;
+    top: 2320px;
+    line-height: 20px;
+    max-width: 400px;
+}
+.footer{
+    width: 100%;
+    height: 40vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.col-1{
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.col-1 h4{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.col-1 a{
+    display: block;
+    padding-left: 50px;
+    color: #fff;
+    padding: 8px;
+    font-weight: 300;
+}
+.col-1 a:hover{
+    padding-left: 5px;
+}
+.col-2{
+    padding-left: 480px;
+    padding-top: 20px;
+}
+.col-2 h4{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.col-2 a{
+    display: block;
+    padding-left: 50px;
+    color: #fff;
+    padding: 8px;
+    font-weight: 300;
+}
+.col-2 a:hover{
+    padding-left: 5px;
+}
+.col-3{
+    padding-left: 380px;
+    padding-top: 20px;
+}
+.col-3 h4{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    padding-left: 7px;
+}
+.col-3 p{
+    font-size: 20px;
+    font-weight: 300;
+}
+.col-3-icons {
+    padding-top: 23px;
+    padding-left: 3px;
+}
+.col-3-icons i{
+    font-size: 18px;
+    padding: 5px;
+}
+.col-3-icons i:hover{
+    transform: scale(1.1);
+}
